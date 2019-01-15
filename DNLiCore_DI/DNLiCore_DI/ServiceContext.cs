@@ -10,7 +10,7 @@ namespace DNLiCore_DI
         public static void RegisterServices(IServiceCollection serviceCollection)
         {
             _iserviceCollection = serviceCollection;
-            _serviceProvider = serviceCollection.BuildServiceProvider();  //跟容器
+            _serviceProvider = serviceCollection.BuildServiceProvider();  //根容器
         }
 
 
